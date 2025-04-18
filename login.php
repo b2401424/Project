@@ -2,7 +2,6 @@
 require "config.php";
 
 if($_SERVER["REQUEST_METHOD"]=="POST") {
-    // Trim to remove unnecessary spaces
     $username = $_POST["username"];
     $password = $_POST["password"];
 
