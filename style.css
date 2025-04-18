@@ -1,0 +1,159 @@
+.navbar-expand-lg {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.greeting {
+    background-color: lightblue;
+    padding: 2%;
+    padding-left: 4%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: silver;
+    padding: 0.5%;
+    align-content: center;
+}
+.viewFullImage {
+    display: block;
+    text-align: right;
+    padding-right: 10%;
+    text-decoration: none;
+    margin-bottom: 1%;
+}
+.viewFullImage:hover {
+    color: blue;
+}
+
+/* Footer text */
+.toTop {
+    color:black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.toTop:hover {
+    color: red;
+}
+
+.MyMasterclasses {
+    background-color: lightgoldenrodyellow;
+    padding-bottom: 2%;
+}
+h2 {
+    padding: 1.5%;
+}
+h3 {
+    padding-top: 5%;
+}
+.masterclassImage {
+    border-radius: 3%;
+    width: 25vw;
+}
+
+/* Text from "More info" */
+p {
+    font-size: 80%;
+    padding-top: 1%;
+}
+.profileUser {
+    background-color:aquamarine;
+    padding: 1%;
+    padding-left: 2%;
+}
+#profileInfo {
+    background-color: rgb(180, 255, 220);
+    padding-bottom: 1%;
+}
+main {
+    padding-bottom: 2%;
+}
+body {
+    background-color: rgb(255, 220, 220);
+}
+h5 {
+    padding-left: 1.5%;
+}
+#giveReview {
+    margin-top: 1%;
+}
+#changeInfo, #logOut {
+    margin-top : 0.5%;
+    margin-left: 1%;
+}
+#userReview {
+    background-color: rgb(255, 170, 170);
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    padding: 2%;
+    border-radius: 5%;
+}
+.btn-info {
+    margin: 1%;
+}
+.changeForms, #goBack {
+    display: none;
+}
+@media screen and (max-width: 992px) {
+    .greeting {
+        padding: 6%;
+        padding-bottom: 3%;
+    }
+    footer {
+        height: 7vh;
+    }
+    .viewFullImage {
+        padding-right: 18%;
+    }
+    .toTop {
+        font-size: 120%;
+    }
+    .MyMasterclasses {
+        padding-bottom: 10%;
+    }
+    h1 {
+        padding: 1.5%;
+        font-size: 300%;
+    }
+    h2 {
+        padding: 4%;
+        font-size: 200%;
+    }
+    h3 {
+        padding-top: 15%;
+        font-size: 180%;
+    }
+    .masterclassImage {
+        width: 60vw;
+    }
+    details {
+        margin-bottom: 1.5%;
+    }
+    .profileUser {
+        padding: 3%;
+    }
+    #profileInfo {
+        padding-bottom: 5%;
+    }
+    h5 {
+        padding-left: 4%;
+    }
+    #giveReview {
+        margin-bottom: 3%;
+    }
+    #changeInfo, #logOut {
+        margin-top : 2%;
+        margin-left: 4%;
+    }
+    #userReview {
+        width: 80%;
+        margin: 10%;
+        margin-top: 1%;
+        margin-bottom: 15%;
+        text-align: center;
+    }
+}
